@@ -13,8 +13,8 @@ sed -i "s|libs -o|libs -L/usr/lib64 -Wl,-dynamic-linker=${LINKER} -o|" \
   scripts/test-installation.pl
 unset LINKER
 
-mkdir -v glibc64-build
-cd       glibc64-build
+cd $src
+mkdir -v glibc64-build && cd glibc64-build
 
 echo "libc_cv_slibdir=/lib64" >> config.cache
 

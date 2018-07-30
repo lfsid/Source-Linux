@@ -12,4 +12,4 @@ export LFS_TARGET32="i686-master-linux-gnu"
 
 export BUILD32="${BUILD32}"
 export BUILD64="${BUILD64}"
-export LFS_TARGET32="${CLFS_TARGET32}"
+export LFS_TARGET32="${LFS_TARGET32}"
